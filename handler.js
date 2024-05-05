@@ -1549,17 +1549,7 @@ global.dfail = (type, m, conn) => {
 const aa = {
         'quoted': m,
         'userJid': conn['user']['jid']
-    },
-    prep = generateWAMessageFromContent(m['chat'], {
-        'extendedTextMessage': {
-            'text': msg,
-            'contextInfo': {
-                'externalAdReply': {
-                    'title': '[ ⚠ ] معلومه مهمه',
-                    'body': '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩',
-                    'thumbnail': imagen1,
-                    'sourceUrl': 'https://www.atom.bio/harley_light'
-                }
+
             }
         }
     }, aa);
