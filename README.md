@@ -2,7 +2,7 @@
 
 # `حقوقك في config.js وتعامل البوت حقك من الان` 
 <p align="center">
-<img src="https://telegra.ph/file/bda9ed97f962db2e7f154.jpg" alt="Mego-Bot-MD" width="900"/>
+<img src="https://telegra.ph/file/07278454f366641c0ce34.jpg" alt="⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩" width="900"/>
 </p>
 
 ------------------
