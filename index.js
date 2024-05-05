@@ -17,7 +17,7 @@ say('The mego\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot mego`, {
+say(`light bot`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
