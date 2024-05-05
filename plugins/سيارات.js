@@ -31,7 +31,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     ];
 };
 
-handler.help = ['miku'];
+handler.help = ['مركات'];
 handler.tags = ['game'];
 handler.command = /^(سيارات)$/i;
 
