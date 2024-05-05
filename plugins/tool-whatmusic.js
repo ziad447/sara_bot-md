@@ -42,5 +42,5 @@ let txt = `
   }
 }
 
-handler.command = /^quemusica|shazam|whatmusic$/i
+handler.command = /^اسم_الاغنية|shazam|اسم_الاغنية$/i
 export default handler
