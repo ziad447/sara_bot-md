@@ -4,7 +4,7 @@ const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
-💝 KANEKI-BOT 💝
+*👑𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃👑*
          
 
 🔊 مثال :
