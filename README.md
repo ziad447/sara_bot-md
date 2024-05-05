@@ -42,10 +42,8 @@
 
 ### `▢يوتيوب المطور الرسمي (نشط)`
 <a href="http://www.youtube.com/@HARLEY_247">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
 </a>
-
-
 ### `▢ المكونات الإضافية`
 - هل لديك أفكار للمكونات الإضافية أو هل ترغب في الحصول على المزيد من المكونات الإضافية؟  ثم قم [انقر هنا]([](https://github.com/theh2so4/Mystic-Plugins))
 
