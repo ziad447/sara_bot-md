@@ -46,7 +46,7 @@ conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 conn.reply(m.chat, '[❗خطاء❗]', m)
 }}
-handler.command = /^(م8|مهام|قسم_الذكاء_الاصطناعي|قسم الذكاء الاصطناعي|م8)$/i
+handler.command = /^(م8|قسم_الذكاء_الاصطناعي|قسم الذكاء الاصطناعي|م8)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
