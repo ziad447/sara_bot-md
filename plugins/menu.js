@@ -172,7 +172,7 @@ https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(الاوامر|مهام|المهام|menu2|مهام)$/i
+handler.command = /^(المهام|مهام|المهام|menu2|مهام)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
