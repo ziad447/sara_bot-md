@@ -35,7 +35,7 @@ const handler = async (_0x4e70f4, {
     usedPrefix: _0x2f2683,
     command: _0x29b918
 }) => {
-    if (!_0x450e6b[0x0]) throw '*[❗مساعده❗] هات رابط المديافاير الي عايز تحمله، مثال: ' + (_0x2f2683 + _0x29b918) + ' https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*\x0a\x0a  °°°°°°°°°°°°°°°°°°\x0a' ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩
+    if (!_0x450e6b[0x0]) throw '*[❗مساعده❗] هات رابط المديافاير الي عايز تحمله، مثال: ' + (_0x2f2683 + _0x29b918) + ' https://www.mediafire.com/file/r0lrc9ir5j3e2fs/DOOM_v13_UNCLONE*\x0a\x0a  °°°°°°°°°°°°°°°°°°\x0a ⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩'
     await _0x1b8872['sendMessage'](_0x4e70f4[_0x2572(0x5)], {
         'react': {
             'text': '📄',
