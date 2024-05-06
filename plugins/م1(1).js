@@ -126,7 +126,7 @@ let str = `*مرحبا بك في 𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃*
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(المهام|مهام|المهام|menu2|مهام)$/i
+handler.command = /^(قسم الجروبات|قسم_الجروبات|م1|م1)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
