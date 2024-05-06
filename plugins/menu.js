@@ -1,64 +1,30 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
-import {
-    xpRange
-} from '../lib/levelling.js'
-const {
-    levelling
-} = '../lib/levelling.js'
+import { xpRange } from '../lib/levelling.js'
+const { levelling } = '../lib/levelling.js'
 import PhoneNumber from 'awesome-phonenumber'
-import {
-    promises
-} from 'fs'
-import {
-    join
-} from 'path'
-let handler = async (m, {
-    conn,
-    usedPrefix,
-    usedPrefix: _p,
-    __dirname,
-    text,
-    isPrems
-}) => {
-    try {
-        let vn = './Menu.png'
-        let pp = imagen4
-        let img = await (await fetch'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z(/.')).buffer()
-        let d = new Date(new Date + 3600000)
-        let locale = 'ar'
-        let week = d.toLocaleDateString(locale, {
-            weekday: 'long'
-        })
-        let date = d.toLocaleDateString(locale, {
-            day: 'numeric',
-            month: 'long',
-            year: 'numeric'
-        })
-        let _uptime = process.uptime() * 1000
-        let uptime = clockString(_uptime)
-        let user = global.db.data.users[m.sender]
-        let {
-            money,
-            joincount
-        } = global.db.data.users[m.sender]
-        let {
-            exp,
-            limit,
-            level,
-            role
-        } = global.db.data.users[m.sender]
-        let {
-            min,
-            xp,
-            max
-        } = xpRange(level, global.multiplier)
-        let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
-        let more = String.fromCharCode(8206)
-        let readMore = more.repeat(850)
-        let taguser = '@' + m.sender.split("@")[0]
-        let str = `
-*مرحبا بك في 𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃*
+import { promises } from 'fs'
+import { join } from 'path'
+let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems }) => {
+try {
+let vn = './Menu.png'
+let pp = imagen4
+let img = await(await fetch('https://telegra.ph/.')).buffer()
+let d = new Date(new Date + 3600000)
+let locale = 'ar'
+let week = d.toLocaleDateString(locale, { weekday: 'long' })
+let date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' })
+let _uptime = process.uptime() * 1000
+let uptime = clockString(_uptime)
+let user = global.db.data.users[m.sender]
+let { money, joincount } = global.db.data.users[m.sender]
+let { exp, limit, level, role } = global.db.data.users[m.sender]
+let { min, xp, max } = xpRange(level, global.multiplier)
+let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length 
+let more = String.fromCharCode(8206)
+let readMore = more.repeat(850)   
+let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
+let str = `*مرحبا بك في 𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃*
 *⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*
 *منور ياقلب لايت ⚡🎌*
 *البوت تابع الي مملكة سبيد العريقة ⚜️*
@@ -111,7 +77,7 @@ https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m
 *👑𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃👑*
 *⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*
 `.trim()
-        const _0x3c7cab = _0x5a1d;
+   const _0x3c7cab = _0x5a1d;
 
         function _0x5a1d(_0x1b92fa, _0x42ca62) {
             const _0x5a1d39 = _0x42ca();
@@ -172,7 +138,7 @@ https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m
         conn.reply(m.chat, '[❗خطاء❗]', m)
     }
 }
-handler.command = /^(المهام|مهام|المهام|menu2|مهام)$/i
+handler.command = /^(المهام|مهام)$/i
 handler.exp = 20
 handler.fail = null
 export default handler
