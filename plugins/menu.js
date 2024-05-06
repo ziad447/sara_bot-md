@@ -69,7 +69,7 @@ let str = `*مرحبا بك في 𝚃𝙷𝙴_𝙻𝙸𝙶𝙷𝚃_𝙱𝙾𝚃*
 *⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*
 *رابط قناة المطور 🤖*
 *⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*
-https://whatsapp.com/channel/0029VaTTAnJF6sn1CkV0IY3m
+https://whatsapp.com/channel/0029VaXddtu0lwgiREisx82C
 *⎔ ⋅ ───━ •﹝👑﹞• ━─── ⋅ ⎔*
 ⌬ تــ✍︎ــوقــيــع ↡🖋️
 『⚜️𝐒𝐩𝐞𝐞𝐝 ⊰🐉⊱ 𝐊𝐢𝐧𝐠𝐝𝐨𝐦⚜️』
